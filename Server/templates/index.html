@@ -3,32 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="{{ url_for('static', filename='scripts/network_tool.js') }}"></script>
-    <script src="{{ url_for('static', filename='scripts/components.js') }}"></script>
-    <script src="{{ url_for('static', filename='scripts/axios.min.js') }}"></script>
-    <script src="{{ url_for('static', filename='scripts/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/libs/axios.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/libs/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='scripts/app/app.js') }}"></script>
 
-    <link rel="stylesheet" href="{{ url_for('static', filename='styles/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/libs/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/custom/custom.css') }}">
     <script>
-        var templates = {{ templates|safe }};
-        var test_table_data = {{ test_table_data|safe }};
+
     </script>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col" id="col1">
 
-        </div>
-        <div class="col" id="col2">
-
-        </div>
-        <div class="col" id="test">
-
-        </div>
-
-
-    </div>
-</div>
 </body>
 </html>
