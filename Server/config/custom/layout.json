@@ -1,0 +1,63 @@
+{
+  "div": {
+    "class": "container-fluid",
+    "id": "main-container",
+    "style": "width:100vw;height:100vh;margin:2px",
+    "children": [
+      {
+        "div": {
+          "class": "row",
+          "id": "row-1",
+          "style": "width:100vw;height:50vh;margin:2px",
+          "children": [
+            {
+              "div": {
+                "class": "col-6",
+                "id": "col-1",
+                "style": "width:100vw;height:50vh;margin:2px",
+                "children": [
+                ]
+              }
+            },
+            {
+              "div": {
+                "class": "col-6",
+                "id": "col-2",
+                "style": "width:100vw;height:50vh;margin:2px",
+                "children": [
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "div": {
+          "class": "row",
+          "id": "row-2",
+          "style": "width:100vw;height:50vh;margin:2px",
+          "children": [
+            {
+              "div": {
+                "class": "col-6",
+                "id": "col-1",
+                "style": "width:100vw;height:50vh;margin:2px",
+                "children": [
+                ]
+              }
+            },
+            {
+              "div": {
+                "class": "col-6",
+                "id": "col-2",
+                "style": "width:100vw;height:50vh;margin:2px",
+                "children": [
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

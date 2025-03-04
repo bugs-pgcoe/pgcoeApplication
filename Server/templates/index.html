@@ -10,10 +10,11 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/libs/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='styles/custom/custom.css') }}">
     <script>
-
+        get(
+            {{ components | safe }}
+        )
     </script>
 </head>
-<body>
-
+<body id="main-body">
 </body>
 </html>
