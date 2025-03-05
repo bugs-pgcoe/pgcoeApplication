@@ -1,63 +1,87 @@
 {
-  "div": {
-    "class": "container-fluid",
-    "id": "main-container",
-    "style": "width:100vw;height:100vh;margin:2px",
-    "children": [
-      {
-        "div": {
-          "class": "row",
-          "id": "row-1",
-          "style": "width:100vw;height:50vh;margin:2px",
-          "children": [
-            {
-              "div": {
-                "class": "col-6",
-                "id": "col-1",
-                "style": "width:100vw;height:50vh;margin:2px",
-                "children": [
-                ]
-              }
-            },
-            {
-              "div": {
-                "class": "col-6",
-                "id": "col-2",
-                "style": "width:100vw;height:50vh;margin:2px",
-                "children": [
-                ]
-              }
+  "children": [
+    {
+      "div": {
+        "class": "container-fluid",
+        "id": "container1",
+        "style": "width:100hw;height:100vh;margin:2px",
+        "children": [
+          {
+            "div": {
+              "class": "row",
+              "innerHTML": "header",
+              "id": "header-row",
+              "style": "width:100hw;height:10%;margin:2px;position:fixed;top:2px",
+              "children": [
+                {
+                  "div": {
+                    "class": "col",
+                    "id": "header-row-col",
+                    "style": "margin:2px",
+                    "children": [
+                      {
+                        "button": {
+                          "class": "btn btn-primary",
+                          "id": "button1",
+                          "onclick": "console.log('button1')",
+                          "style": "",
+                          "innerHTML": "button1"
+                        }
+                      },
+                      {
+                        "button": {
+                          "class": "btn btn-primary",
+                          "id": "button2",
+                          "onclick": "console.log('button2')",
+                          "style": "",
+                          "innerHTML": "button2"
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
             }
-          ]
-        }
-      },
-      {
-        "div": {
-          "class": "row",
-          "id": "row-2",
-          "style": "width:100vw;height:50vh;margin:2px",
-          "children": [
-            {
-              "div": {
-                "class": "col-6",
-                "id": "col-1",
-                "style": "width:100vw;height:50vh;margin:2px",
-                "children": [
-                ]
-              }
-            },
-            {
-              "div": {
-                "class": "col-6",
-                "id": "col-2",
-                "style": "width:100vw;height:50vh;margin:2px",
-                "children": [
-                ]
-              }
+          },
+          {
+            "div": {
+              "class": "row",
+              "id": "mainbody-row",
+              "style": "width:100hw;height:85%;margin:2px",
+              "children": [
+                {
+                  "div": {
+                    "class": "col",
+                    "id": "mainbody-row-col",
+                    "style": "margin:2px",
+                    "children": [
+                    ]
+                  }
+                }
+              ]
             }
-          ]
-        }
+          },
+          {
+            "div": {
+              "class": "row",
+              "id": "footer-row",
+              "style": "width:100hw;height:5%;margin:2px; position:fixed;bottom:0 ",
+              "children": [
+                {
+                  "div": {
+                    "class": "col",
+                    "id": "footer-row-col",
+                    "style": "margin:2px",
+                    "children": [
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
       }
-    ]
-  }
+    }
+
+  ]
 }
