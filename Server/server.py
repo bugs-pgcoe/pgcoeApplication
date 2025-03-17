@@ -56,6 +56,7 @@ if __name__ == "__main__":
     server = Server()
     server.components = {
         'layout': 'layout',
-        'table': 'table'
+        'table': 'table',
+        "button": "button",
     }
     server.start()

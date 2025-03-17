@@ -1,0 +1,39 @@
+{
+  "children": [
+    {
+      "div": {
+        "children": [
+          {
+            "button":{
+              "innerHTML": "button1",
+              "class": "btn btn-primary",
+              "onclick": "console.log('button_clicked')"
+            }
+          },
+          {
+            "button":{
+              "innerHTML": "button2"
+            }
+          },
+          {
+            "button":{
+              "innerHTML": "button3"
+            }
+          },
+          {
+            "button":{
+              "innerHTML": "button4"
+            }
+          },
+          {
+            "input":{
+              "value": "enoondu",
+              "type": "text"
+            }
+          }
+
+        ]
+      }
+    }
+  ]
+}
