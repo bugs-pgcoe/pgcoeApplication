@@ -1,5 +1,5 @@
 var components = {}
-
+//conolsekdfskdfaskdfasdkfjs
 function get(item) {
     axios({
         method: "get",
