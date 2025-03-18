@@ -3,7 +3,7 @@ import pathlib
 from flask import Flask, request, jsonify, render_template
 
 
-class FileHandler:
+class FileHandlerJson:
     def __init__(self, file_name, create_file=False):
         self._filename = file_name
         self._fw = None
@@ -44,7 +44,7 @@ class Server:
         res = {}
         for k, v in request.args.items():
             res.update(
-                {k : FileHandler(f"config/custom/{v}.json").read_json()}
+                {k : FileHandlerJson(f"config/custom/{v}.json").read_json()}
             )
         return res
 
